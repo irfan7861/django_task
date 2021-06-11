@@ -1,0 +1,128 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Task</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2 style="color: orangered;">Vehicle Details</h2>
+  <hr style="border: 1px solid red;">
+  <form class="form-horizontal" action="">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="sap">SAP Code</label>
+      <div class="col-sm-10">
+        <input  class="form-control " id="sap"  name="sap" &#xf00d; >
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="ledger">Ledger Name</label>
+      <div class="col-sm-10">          
+        <input  class="form-control " id="ledger"  name="ledger">
+      </div>
+    </div>
+    <div class="form-group">
+    <label class="control-label col-sm-2" for="sel1">Manufacturer</label>
+    <div class="col-sm-10">
+      <select class="form-control " id="sel1">
+        <option>Mahindra & Mahindra ltd</option>
+        <option>Maruti Suzuki</option>
+        <option>Hyundai</option>
+        <option>Volksvegan</option>
+      </select>  
+    </div>
+    </div>
+    <div class="form-group">
+    <label class="control-label col-sm-2" for="sel1">Model</label>
+    <div class="col-sm-10">
+      <select class="form-control" id="sel1">
+        <option>BOLERO CAMPER GOLD 2WD</option>
+        <option>SWIFT</option>
+        <option>I20</option>
+        <option>POLO</option>
+      </select>  
+    </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="sel1"><span>&#42;</span>  Vehicle Type</label>
+      <div class="col-sm-10">
+        <select class="form-control" id="sel1">
+          <option>CAMPER</option>
+          <option>HETCHBACK</option>
+          <option>CAMPER</option>
+          <option>CAMPER</option>
+        </select>  
+      </div>
+      </div>    
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="km"><span>&#42;</span>  Base KM</label>
+        <div class="col-sm-10">
+          <input  class="form-control" id="km"  name="km">
+      </div>  
+      </div> 
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="sel1">RTO</label>
+        <div class="col-sm-10">
+          <select class="form-control" id="sel1">
+            <option>Barbil Odisha</option>
+            <option>Rohini Delhi</option>
+            <option>Amritsar Punjab</option>
+            <option>Patna Bihar</option>
+          </select>  
+        </div>
+        </div>
+      </div> 
+    </div>           
+  </form>
+</div>
+
+
+
+
+<div class="container">
+  <h2 style="color: orangered;">Engine Details</h2>
+  <hr style="border: 1px solid red;">
+  <form class="form-horizontal" action="">
+    <div class="form-group">
+    <label class="control-label col-sm-2" for="sel1">Model Year</label>
+    <div class="col-sm-10">
+      <select class="form-control " id="sel1">
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+      </select>  
+    </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="km">Chassis No</label>
+      <div class="col-sm-10">
+        <input  class="form-control" id="km"  name="km">
+    </div>  
+    </div>
+      <div class="form-group">
+      <label class="control-label col-sm-2" for="sel1">Fuel Type</label>
+      <div class="col-sm-10">
+        <select class="form-control " id="sel1">
+          <option>Diesel </option>
+          <option>Petrol</option>
+          <option>Electric</option>
+          <option>fuel</option>
+        </select>  
+      </div>
+      </div>  
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="km">Old Vehicle No</label>
+        <div class="col-sm-10">
+          <input  class="form-control" id="km"  name="km">
+      </div>       
+
+</body>
+</html>
